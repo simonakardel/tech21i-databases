@@ -1,0 +1,31 @@
+
+1. List 6 relational databases:
+
+Microsoft SQL Server
+PostgreSQL
+SAP HANA
+MySQL
+SQLite
+Oracle Database
+
+
+2. List at least 1 of each of the NoSQL databases:
+Key- value: Redis server, Scalaris, Memcached
+Columnar: Apache Cassandra, Apache HBase, Hypertable
+Document: MongoDB, RavenDB, CouchDB
+Graph: Neoj4, Infinite Graph, Flock DB
+
+
+3. Relational databases vs NoSQL databases:
+SQL databases are normalized databases where the data is broken down into various logical tables to avoid data redundancy and data duplication. A row in a table represents a single entity that contains information on all the columns. The major strength of a relational database is the ability to retrieve data from multiple tables in logical groupings. 
+Non-relational database stores data in essentially an unstructured form. There are a variety of ways this is accomplished. MongoDB leverages a document structure of storing unformatted data. Cassandra stores rows of unstructured values. The biggest feature of NoSQL is that columns are dynamic. The data can vary between rows and do not suffer from the lack of flexibility that comes from a structured row/column system.
+SQL databases are faster than their NoSQL counterparts for joins, queries, updates, etc. NoSQL databases are specifically designed for unstructured data which can be document-oriented, column-oriented, graph-based, etc. In this case, a particular data entity is stored together and not partitioned. So performing read or write operations on a single data entity is faster for NoSQL databases as compared to SQL databases.
+
+4. In memory databases vs persistent databases
+
+In-memory database system (IMDS) is a database management system that stores data entirely in the main memory. This contrasts with traditional (on-disk/persistent) database systems, which are designed to store data on persistent media. Because working with data in memory is much faster than writing to and reading from a file system, IMDSs can perform applications’ data management functions orders of magnitude faster. Because their design is typically simpler than that of persistent database systems, IMDSs can also impose significantly lower memory and CPU requirements.
+
+5. In memory databases examples: 
+Redis
+HSQLDB
+Hazelcast
